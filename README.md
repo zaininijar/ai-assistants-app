@@ -1,14 +1,15 @@
 # ai-assistants-app
 
-Expo app percobaan voice assistant (rekam → kirim ke worker → jawab + TTS).
+Expo experiment for a voice assistant flow (record → worker → reply + TTS).
 
-Masih banyak sisa template Expo; yang dipakai utama ada di tab Voice Assistant.
+Still carries a lot of Expo starter UI; the useful screen is the Voice Assistant tab.
 
-## jalanin
+## Run
 
 ```bash
 npm i
 npx expo start
 ```
 
-Butuh izin mic. Worker URL lagi di-hardcode di `app/(tabs)/voice-assistant.tsx` — ganti kalau mau pakai endpoint sendiri.
+Needs mic permission. The worker URL is hardcoded in `app/(tabs)/voice-assistant.tsx` — swap it for your own endpoint.
+
